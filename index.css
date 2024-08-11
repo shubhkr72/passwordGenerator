@@ -1,0 +1,101 @@
+* {
+  color: white;
+}
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container {
+  /* border: 5px solid rgb(107, 34, 34);
+  background-color: rgb(56, 7, 71); */
+  padding: 15px;
+   
+  height: 100vh;
+  width: 100vh;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+/* .input-container {
+  display:grid;
+  width: 300px;
+  /* text-align: center; 
+  justify-content: center;
+  background-color: rgb(29, 6, 69);
+  border-radius: 7px;
+} */
+/* .display-container {
+  display: flex;
+  justify-content:;
+  align-items: center;
+} */
+
+/* chatgpt */
+.input-container {
+  display: grid;
+  width: 300px;
+  justify-content: center;
+  background-color: rgb(29, 6, 69);
+  border-radius: 7px;
+  margin: 0 auto; /* This centers the input-container horizontally */
+}
+
+.display-container {
+  display: flex;
+  justify-content: center; /* This centers content inside the display-container */
+  align-items: center;
+  margin: 0 auto; /* This centers the display-container horizontally */
+}
+
+.display {
+  height: 30px;
+  width: 270px;
+  /* color: aqua;back */
+  background-color: rgba(30, 7, 63, 0.367);
+  border-bottom: 4px solid darkcyan ;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+
+}
+.length-container{
+    display: flex;
+    justify-content: space-between;
+}
+.display::placeholder{
+    color: rgb(89, 95, 20);
+}
+.display-container button{
+    /* position: absolute; */
+right: 1.5rem;
+/* top: 50%; */
+}
+
+h1{
+    opacity: 0.7;
+}
+.display-container{
+    /* background-color:rgb(48, 3, 3) ; */
+    color: aqua;
+
+}
+.generateButton{
+    background-color: aqua;
+    color: brown;
+    width: 250px;
+    height: 30px;
+    border-radius: 6px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    border-bottom: 4px solid rgb(159, 13, 37);
+    border-left: 4px solid red;
+    border-right: 4px solid red;
+}
